@@ -11,4 +11,16 @@ The amplicon reporting format only collects metadata at the level of the taxon t
 After collection, samples may be subjected to more than one strategy for nucleotide recovery and sequencing and to more than one strategy for generating taxon tables. Therefore, each taxon table submitted to ESS-DIVE should have both sequencing and bioinformatic metadata recorded in the metadata files described below. To the extent possible, metadata fields are defined to match those outlined in the Minimum Information about any Sequence ([MIxS](https://gensc.org/mixs/)) standards.
 
 ## How to contribute to the Amplicon Data Reporting Format
-Guidelines and templates for this reporting format were developed by ESS-DIVE community partners with input from microbiome researchers. The templates presented below represent an initial effort that will be refined with user input. If you would like to suggest a change to the reporting format, please submit a GitHub issue using one of the templates we provide [here](https://github.com/ess-dive-community/essdive-amplicon/issues/new/choose). If you have questions about the reporting format, you can email ESS-DIVE support at ess-dive-support [at] lbl.gov. 
+Guidelines and templates for this reporting format were developed by ESS-DIVE community partners with input from microbiome researchers. The templates presented below represent an initial effort that will be refined with user input. If you would like to suggest a change to the reporting format, please submit a GitHub issue using one of the templates we provide [here](https://github.com/ess-dive-community/essdive-amplicon/issues/new/choose). If you have questions about the reporting format, you can email ESS-DIVE support at ess-dive-support [at] lbl.gov.  
+
+## Licensing information
+The repository content is licensed for use under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+
+## Funding and acknowledgements
+Funding for the development of ESS-DIVE ESS-DIVE Amplicon Data Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program.
+
+## Recommended citation
+Weisenhorn, Pamela; Beilsmith, Kathleen (2021): ESS-DIVE Amplicon Data Reporting Format. Environmental System Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE).
+
+## Related references
+*Will be updated soon**
