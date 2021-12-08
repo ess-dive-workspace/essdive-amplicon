@@ -1,6 +1,6 @@
 # ESS-DIVE Amplicon Data Reporting Format v0.1.0   
 
-## About the Amplicon Data Reporting Forma
+## About the Amplicon Data Reporting Format
 ESS-DIVE’s [reporting format for amplicon data](https://docs.ess-dive.lbl.gov/contributing-data/data-reporting-formats#16s-amplicon-sequencing) aims to make the microbiome profiles of ESS samples more Findable, Accessible, Interoperable, and Reusable ([FAIR](https://www.go-fair.org/fair-principles/)). As outlined below, the standard provides file formats, vocabulary, and metadata requirements for uploading two key amplicon data products to the repository: taxon tables and representative sequence files.
 
 The data standard aims to capture the most essential sequencing and bioinformatic metadata for downstream researchers seeking to combine or compare amplicon tables and sequence sets when parameterizing models or performing meta-analyses. With this standard, ESS researchers can manage and share the abundance profiles and recovered sequences from their sample microbiomes in consistent formats. The file formats will enable seamless upload to a DOE platform for open-source data analysis, the Systems Biology Knowledgebase ([KBase](https://www.kbase.us/)).
