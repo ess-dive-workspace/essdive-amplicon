@@ -83,14 +83,11 @@ Sequencing metadata includes eight required and four recommended columns that re
 
 Sequencing metadata are stored in Comma-separated Values (CSV) files. These files should follow the ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each taxon table in the data package.
 
-To see a list of options for sequencing instrument, consult the XLSX or CSV file with a guide to sequencing terms.
-[Link] ess-dive_amplicon_seq_instrument_terms_2021-10-03
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_seq_instrument_terms_2021-10-03.csv) To see a list of options for sequencing instrument, consult the XLSX or CSV file with a guide to sequencing terms.
 
-[Link] Download XLSX spreadsheet template for recording sequencing metadata.
-ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download XLSX spreadsheet template for recording sequencing metadata.
 
-[Link] Download CSV template for recording sequencing metadata.
-ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download CSV template for recording sequencing metadata.
 
 
 ### (iv) Bioinformatic metadata
@@ -100,10 +97,8 @@ Sequencing metadata includes five required and six recommended columns that reco
 Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These files should follow the ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each sequence-by-sample table in the data package.
 
 For QIIME 2 users, a list of relevant plugins and parameters for the ESS_DIVE bioinformatic metadata fields is provided as an XLSX or CSV file.
-[Link] ess-dive_amplicon_qiime2_plugin_metadata_map
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_qiime2_plugin_metadata_map.xlsx)
 
-[Link] Download XLSX spreadsheet template for recording bioinformatic metadata.
-ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.xlsx
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording bioinformatic metadata.
 
-[Link] Download CSV template for recording bioinformatic metadata.
-ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.csv
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.csv) Download CSV template for recording bioinformatic metadata.
