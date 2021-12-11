@@ -1,0 +1,19 @@
+Columns,nucl_acid_ext,nucl_acid_amp,target_gene,target_subfragment,pcr_primers,pcr_cond,lib_screen,seq_instrument,lib_layout,lib_kit,seq_center,seq_date
+Contains,"nucleic acid extraction: Follows MIxS v5 checklist. Link to a reference or kit that describes the recovery of nucleic acids from the sample.
+","nucleic acid amplification: Follows MIxS v5 checklist. Link to a reference or kit that describes the enzymatic amplification of nucleic acids.
+","target gene: Follows MIxS v5 checklist. Name of the gene targeted for sequencing.
+","target subfragment: Follows MIxS v5 checklist. Name of the subfragment or region of a gene targeted for sequencing.
+","pcr primers: Follows MIxS v5 checklist. Sequence of PCR primers used to amplify the targeted gene or subfragment.
+","pcr conditions: Follows MIxS v5 checklist. List PCR cycles used to amplify the targeted gene or subfragment.
+","library screening strategy: Follows MIxS v5 checklist. Describe enrichment, screening, or normalization methods applied during amplification or library preparation.",sequencing instrument: Combines the NCBI SRA metadata fields for “platform” and “instrument_model.” Name the sequencing technology and instrument model used to sequence amplicon libraries.,"library layout: Specify the configuration of reads.
+","library kit: Name, version, and applicable cell or cycle numbers for the kit used to prepare libraries and load cells or chips for sequencing. If possible, include a part number.","sequencing center: Name of facility where sequencing was performed (lab, core facility, or company).",sequencing date: Date on which sequencing was performed.
+Formatting,"PMID, URL, DOI","PMID, URL, DOI","text
+","text
+","Uppercase letters.
+FWD:forward primer sequence;REV:reverse primer sequence
+","n-well;initial_denaturation:degrees_minutes;denaturation:degrees_minutes;annealing:degrees_minutes;elongation:degrees_minutes;final elongation:degrees_minutes;total cycles
+",text,"See the file ess-dive_amplicon_seq_instrument_terms_2021-10-03 for suggested terms.
+",text,text,text,YYYY-MM-DD
+Requirement,Recommended,Recommended,Required,Recommended,Required,Required,Required,Required,Recommended,Required,Required,Required
+Example,https://www.protocols.io/view/earth-microbiome-project-emp-high-throughput-htp-d-pdmdi46,"https://earthmicrobiome.org/protocols-and-standards/16s/
+",16S rRNA,V4,FWD:GTGYCAGCMGCCGCGGTAA;REV:GGACTACNVGGGTWTCTAAT,96-well;initial_denaturation:94_3;denaturation:94_0.75;annealing:50_1;elongation:72_1.5;final elongation:72_10;35,"size selection 390bp, diluted to 1 ng DNA/sample","ILLUMINA, Illumina MiSeq",paired-end,"MiSeq Reagent Kit v3 (150-cycle), MS-102-3001","Environmental Sample Preparation and Sequencing Facility, Argonne National Lab. Lemont, IL, USA.",2021-10-03
