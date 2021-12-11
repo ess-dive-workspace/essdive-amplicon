@@ -1,0 +1,34 @@
+﻿metadata,plugin,method_parameter
+read_pair_method,vsearch,join-pairs
+read_pair_method,dada2,denoise-paired
+barcode_error_rate,cutadapt,demux-paired --p-error-rate
+barcode_error_rate,cutadapt,demux-single --p-error-rate
+read_length_cutoff,dada2,denoise-paired
+read_length_cutoff,deblur,denoise-16S --p-trim-length
+read_length_cutoff,vsearch,join-pairs --p-minlen
+read_length_cutoff,cutadapt,trim-paired --p-minimum-length
+read_length_cutoff,cutadapt,trim-single --p-minimum-length
+quality_filter_cutoff,dada2,denoise-paired --p-trunc-q
+quality_filter_cutoff,dada2,denoise-single --p-trunc-q
+quality_filter_cutoff,quality-filter,q-score --p-min-quality
+quality_filter_cutoff,vsearch,join-pairs --p-qminout
+chimera_method,vsearch,uchime-ref
+chimera_method,vsearch,uchime-denovo
+chimera_method,dada2,denoise-paired --p-chimera-method --p-min-fold-parent-over-abundance
+chimera_method,dada2,"denoise-single, --p-chimera-method, --p-min-fold-parent-over-abundance"
+denoise_method,dada2,"denoise-paired --p-pooling-method, --p-n-reads-learn"
+denoise_method,dada2,"denoise-single --p-pooling-method, --p-n-reads-learn"
+denoise_method,deblur,denoise-16S
+sequence_error_cutoff,dada2,"denoise-paired --p-max-ee-f, --p-max-ee-r"
+sequence_error_cutoff,dada2,denoise-single --p-max-ee
+sequence_error_cutoff,deblur,denoise-16S --p-mean-error
+clustering_method,vsearch,cluster-features-de-novo
+clustering_method,vsearch,"cluster-features-open-reference, --i-reference-sequences"
+clustering_method,vsearch,"cluster-features-closed-reference, --i-reference-sequences"
+clustering_cutoff,vsearch,"cluster-features-de-novo, --p-perc-identity"
+clustering_cutoff,vsearch,"cluster-features-open-reference, --p-perc-identity"
+clustering_cutoff,vsearch,"cluster-features-closed-reference, --p-perc-identity"
+sequence_filtering,quality-control,"exclude-seqs --p-method, --p-perc-identity, --p-evalue, --p-perc-query-aligned"
+sequence_filtering,quality-control,"filter-reads --p-mode, --p-sensitivity, --p-ref-gap-open-penalty, --p-ref-gap-ext-penalty, --p-exclude-seqs"
+abundance_filtering,feature-table,filter-features
+abundance_filtering,feature-table,filter-features-conditionally
