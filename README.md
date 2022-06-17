@@ -20,7 +20,7 @@ The repository content is licensed for use under the [CC BY 4.0 license](https:/
 Funding for the development of ESS-DIVE ESS-DIVE Amplicon Data Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program.
 
 ## Recommended citation
-Weisenhorn, Pamela; Beilsmith, Kathleen (2021): ESS-DIVE Amplicon Data Reporting Format. Environmental System Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE).
+Weisenhorn, P., Beilsmith, K. (2022). ESS-DIVE Reporting Format for Amplicon Abundance Tables. Environmental System Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1865729
 
 ## Related references
 *Will be updated soon**
