@@ -1,0 +1,24 @@
+,Amplicon Abundance Table Metadata,MIxS v6 MIMARKS
+Sequencing metadata,nucl_acid_ext,nucl_acid_ext
+,nucl_acid_amp,nucl_acid_amp
+,target_gene,target_gene
+,target_subfragment,target_subfragment
+,pcr_primers,pcr_primers
+,pcr_cond,pcr_cond
+,lib_screen,lib_screen
+,seq_instrument,seq_meth
+,lib_layout,lib_layout
+,lib_kit,
+,seq_center,
+,seq_date,
+Bioinformatic metadata,read_pair_method,
+,barcode_error_rate,
+,read_length_cutoff,
+,quality_filter_cutoff,
+,chimera_method,
+,denoise_method,
+,sequence_error_cutoff,
+,clustering_method,
+,clustering_cutoff,
+,sequence_filtering,
+,abundance_filtering,
