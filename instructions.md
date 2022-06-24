@@ -7,6 +7,8 @@
 (iii)[Sequencing metadata](#iii-sequencing-metadata)  
 (iv) [Bioinformatic metadata](#iv-bioinformatic-metadata) 
 
+![Diagram showing the relationships of reporting fromat files to each other and other reporting formats.](.gitbook/assets/ESS-DIVE_GitBook_Figure1.png)
+
 These files are linked to each other and the rest of the data package. The column headers of the taxon table should be unique and match a Sample Name used in the Sample Metadata. The row headers of the taxon table should each match a description line preceding the associated sequence in the representative sequences FASTA file. If more than one table is submitted, [File Names](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#file-name) should indicate which representative sequences file corresponds to each taxon table. 
 
 Examples: PROJECTNAME_ 97OTUS_TABLE.tsv, PROJECTNAME_ 97OTUS_SEQS.fasta
@@ -88,6 +90,10 @@ Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These 
 [Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download XLSX spreadsheet template for recording sequencing metadata.
 
 [Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download CSV template for recording sequencing metadata.
+
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.xlsx) Download XLSX mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
+
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.csv) Download CSV mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
 
 
 ### (iv) Bioinformatic metadata
