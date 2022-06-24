@@ -1,2 +1,7 @@
 * [Overview](README.md)
 * [Instructions](instructions.md)
+* [Templates](templates_and_maps/README.md)
+  * [Download amplicon sequencing metadata template](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx)
+  * [Download amplicon bioinformatics metadata map](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.xlsx)
+  * [Download amplicon qiime2 plugin metadata map](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_qiime2_plugin_metadata_map.xlsx)
+  * [Download seq instrument terms](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_seq_instrument_terms_2021-10-03.xlsx)
