@@ -87,9 +87,9 @@ Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These 
 
 [Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_seq_instrument_terms_2021-10-03.csv) To see a list of options for sequencing instrument, consult the XLSX or CSV file with a guide to sequencing terms.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download XLSX spreadsheet template for recording sequencing metadata.
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording sequencing metadata.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download CSV template for recording sequencing metadata.
+[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download CSV template for recording sequencing metadata.
 
 [Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.xlsx) Download XLSX mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
 
