@@ -9,7 +9,7 @@
 
 ![Diagram showing the relationships of reporting fromat files to each other and other reporting formats.](.gitbook/assets/ESS-DIVE_GitBook_Figure1.png)
 
-These files are linked to each other and the rest of the data package. The column headers of the taxon table should be unique and match a Sample Name used in the Sample Metadata. The row headers of the taxon table should each match a description line preceding the associated sequence in the representative sequences FASTA file. If more than one table is submitted, [File Names](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#file-name) should indicate which representative sequences file corresponds to each taxon table. 
+These files are linked to each other and the rest of the data package. The column headers of the taxon table should be unique and match a Sample Name used in the Sample Metadata. The row headers of the taxon table should each match a description line preceding the associated sequence in the representative sequences FASTA file. If more than one table is submitted, [File Names](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#file-name) should indicate which representative sequences file corresponds to each taxon table. 
 
 Examples: PROJECTNAME_ 97OTUS_TABLE.tsv, PROJECTNAME_ 97OTUS_SEQS.fasta
 
@@ -19,21 +19,21 @@ Finally, the File Names for taxon tables should be used as row headers in the me
 
 Taxon tables are stored as data matrices in **Tab-separated Values (TSV) files**. 
 
-With the exception of using a tab [delimiter](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#delimiter) rather than a comma, these files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-community/essdive-csv-structure):  
-* Use the standard [US-ASCII](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#character-set) character encoding set without extensions or use UTF-8.  
-* Organize the data as a [matrix of rows and columns](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#data-matrix) with no empty lines and the same number of columns for all rows.  
-* Begin [column and row names](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#column-or-row-names) with letters and use only letters, numbers, hyphens, and underscores. Do not use spaces in the names.  
+With the exception of using a tab [delimiter](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#delimiter) rather than a comma, these files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-workspace/essdive-csv-structure):  
+* Use the standard [US-ASCII](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#character-set) character encoding set without extensions or use UTF-8.  
+* Organize the data as a [matrix of rows and columns](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#data-matrix) with no empty lines and the same number of columns for all rows.  
+* Begin [column and row names](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#column-or-row-names) with letters and use only letters, numbers, hyphens, and underscores. Do not use spaces in the names.  
 
-In the taxon table, the [column headers](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#column-or-row-name-orientation) identify samples. Column names should match the collector’s unique [IGSN identifiers](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/guide.md#igsn) assigned by SESAR or the project-specific [Sample Names](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/guide.md#sample-name) if not using IGSN ids. The first column header should be “SequenceID”. This column will contain the row headers.
+In the taxon table, the [column headers](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#column-or-row-name-orientation) identify samples. Column names should match the collector’s unique [IGSN identifiers](https://github.com/ess-dive-workspace/essdive-sample-id-metadata/blob/main/guide.md#igsn) assigned by SESAR or the project-specific [Sample Names](https://github.com/ess-dive-workspace/essdive-sample-id-metadata/blob/main/guide.md#sample-name) if not using IGSN ids. The first column header should be “SequenceID”. This column will contain the row headers.
 
 Examples: IEWER7214, 001ER18FO
 
-The [row headers](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#column-or-row-name-orientation) identify the operational taxonomic units (OTUs) or exact sequence variants (ESVs) into which amplicon sequences have been grouped. Row headers in the table should match the row headers in the representative sequences file.
+The [row headers](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#column-or-row-name-orientation) identify the operational taxonomic units (OTUs) or exact sequence variants (ESVs) into which amplicon sequences have been grouped. Row headers in the table should match the row headers in the representative sequences file.
 Examples: OTU0018, 7bdb57487bee022ba30c03c3e7ca50e1
 
-The [units](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#units) of the taxon TSV file are raw counts of each sequence per sample. The counts should be stored as integers and should not be normalized, standardized, or transformed. All cells must have a value; when an ESV or OTU has no counts in a sample, then a zero should be recorded.
+The [units](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#units) of the taxon TSV file are raw counts of each sequence per sample. The counts should be stored as integers and should not be normalized, standardized, or transformed. All cells must have a value; when an ESV or OTU has no counts in a sample, then a zero should be recorded.
 
-The [File Name](https://github.com/ess-dive-community/essdive-csv-structure/blob/master/csv_quick_guide.md#file-name) of the taxon TSV file should match the File Name of the representative sequences FASTA file which contains the nucleotide sequences of the ESVs or OTUs in the table.
+The [File Name](https://github.com/ess-dive-workspace/essdive-csv-structure/blob/main/csv_quick_guide.md#file-name) of the taxon TSV file should match the File Name of the representative sequences FASTA file which contains the nucleotide sequences of the ESVs or OTUs in the table.
 
 _How do I get this table from QIIME 2 output?_
 
@@ -79,32 +79,35 @@ Representative sequences can be obtained from Qiime2 FeatureTable[Sequence] arti
 
 ### (iii) Sequencing metadata
 
-ESS-DIVE’s reporting format for amplicon data does not store information about the collection and storage of samples prior to sequencing, which should instead be captured by the [ESS-DIVE Sample Metadata](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/guide.md). The standard does not store all the information required to produce a taxon table from raw reads (for example, it does not record sequence barcodes for each sample in a study). Instead, ESS-DIVE amplicon metadata includes a single entry for each taxon table (and the associated representative sequences) uploaded in a data package. To the extent possible, metadata fields for this entry are defined to match those outlined in the Minimum Information about any Sequence ([MIxS](https://www.gensc.org/pages/standards-intro.html)) standards.
+ESS-DIVE’s reporting format for amplicon data does not store information about the collection and storage of samples prior to sequencing, which should instead be captured by the [ESS-DIVE Sample Metadata](https://github.com/ess-dive-workspace/essdive-sample-id-metadata/blob/main/guide.md). The standard does not store all the information required to produce a taxon table from raw reads (for example, it does not record sequence barcodes for each sample in a study). Instead, ESS-DIVE amplicon metadata includes a single entry for each taxon table (and the associated representative sequences) uploaded in a data package. To the extent possible, metadata fields for this entry are defined to match those outlined in the Minimum Information about any Sequence ([MIxS](https://www.gensc.org/pages/standards-intro.html)) standards.
 
 Sequencing metadata includes eight required and four recommended columns that record or link to information about the isolation of nucleic acids from samples, the enzymatic amplification of a target gene, and the sequencing of the resulting amplicons. These fields provide necessary provenance for the taxon table and its associated representative sequences. The header for each row in the metadata file indicates the table with which it is associated.
 
-Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-community/essdive-csv-structure). Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each taxon table in the data package.
+Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-workspace/essdive-csv-structure). Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each taxon table in the data package.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_seq_instrument_terms_2021-10-03.csv) To see a list of options for sequencing instrument, consult the XLSX or CSV file with a guide to sequencing terms.
+[Link](templates_and_maps/ess-dive_amplicon_seq_instrument_terms_2021-10-03.csv) To see a list of options for sequencing instrument, consult the XLSX or CSV file with a guide to sequencing terms.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording sequencing metadata.
+[Link](templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording sequencing metadata.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download CSV template for recording sequencing metadata.
+[Link](templates_and_maps/ess-dive_amplicon_sequencing_metadata_template_2021-10-03.csv) Download CSV template for recording sequencing metadata.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.xlsx) Download XLSX mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
+[Link](https://github.com/ess-dive-workspace/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.xlsx) Download XLSX mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ESS-DIVE_MIxS_crosswalk.csv) Download CSV mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
+[Link](templates_and_maps/ESS-DIVE_MIxS_crosswalk.csv) Download CSV mapping of ESS-DIVE amplicon sequencing metadata terms to MIxS terms.
 
 
 ### (iv) Bioinformatic metadata
 
 Sequencing metadata includes five required and six recommended columns that record information about the processing of raw sequence reads into a set of ESVs or OTUs and a taxon table. These fields provide necessary provenance for the taxon table and its associated representative sequences. The header for each row in the metadata file indicates the table with which it is associated.
 
-Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-community/essdive-csv-structure). Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each sequence-by-sample table in the data package.
+Sequencing metadata are stored in **Comma-separated Values (CSV) files**. These files should follow the [ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure](https://github.com/ess-dive-workspace/essdive-csv-structure). Use the spreadsheet template as a guide for entering the sequencing metadata and save the file as a CSV. Enter one row to describe the origins of each sequence-by-sample table in the data package.
 
 For QIIME 2 users, a list of relevant plugins and parameters for the ESS_DIVE bioinformatic metadata fields is provided as an XLSX or CSV file.
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_qiime2_plugin_metadata_map.xlsx)
+[Link](templates_and_maps/ess-dive_amplicon_qiime2_plugin_metadata_map.xlsx)
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording bioinformatic metadata.
+[Link](templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.xlsx) Download XLSX spreadsheet template for recording bioinformatic metadata.
 
-[Link](https://github.com/ess-dive-community/essdive-amplicon/blob/main/templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.csv) Download CSV template for recording bioinformatic metadata.
+[Link](templates_and_maps/ess-dive_amplicon_bioinformatic_metadata_template_2021-10-03.csv) Download CSV template for recording bioinformatic metadata.
+
+## Publishing on ESS-DIVE
+Within the FLMD file, the [standard](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/main/flmd_quick_guide.md#standard) for each amplicon reporting format related file should be **ESS-DIVE Amplicon v1**. If submitting your dataset to ESS-DIVE, include the keyword **ESS-DIVE Amplicon Sequencing Reporting Format** in the package-level metadata.
